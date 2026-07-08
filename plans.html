@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plans</title>
+  <!--Bootstrap framwork link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="plan.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="footer.css">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Nave bar section -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img id="logo-pic"
+          src="https://file.aiquickdraw.com/imgcompressed/img/compressed_d76d0b1e2e13bac6f32e935d3ace6655.webp"
+          alt="Yoddha Gym">
+        <span id="logo">
+          Yoddha Gym
+        </span>
+      </a>
+      <!-- Mobile Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              Home
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="services.html" id="servicesDropdown" role="button"
+              data-bs-toggle="dropdown">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="services.html">All Services</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="personal-training.html">🏋️ Personal Training</a></li>
+              <li><a class="dropdown-item" href="weight-training.html">💪 Weight Training</a></li>
+              <li><a class="dropdown-item" href="yoga.html">🧘 Yoga Classes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="plans.html">
+              Plans
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">
+              Gallery
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">
+              Contact
+            </a>
+          </li>
+          <li class="nav-item ms-lg-3">
+            <a href="contact.html" class="btn btn-light text-danger fw-bold px-4 rounded-pill">
+              Join Now
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ================= PLANS HERO ================= -->
+
+  <section class="plans-hero" data-aos="zoom-out">
+
+    <div class="container">
+
+      <div class="hero-content text-center">
+
+        <h1 data-aos="fade-down">
+
+          MEMBERSHIP PLANS
+
+        </h1>
+
+        <p data-aos="fade-right" data-aos-delay="200">
+
+          Invest in your health today.
+          <br>
+          Choose the membership that fits your goals.
+
+        </p>
+
+        <a href="#plans" class="btn btn-danger btn-lg mt-4" data-aos="zoom-in">
+
+          View Plans
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= WHY JOIN ================= -->
+
+  <section class="why-join py-5">
+
+    <div class="container">
+
+      <h2 class="section-title text-center mb-5" data-aos="fade-up">
+
+        Why Join Yoddha Gym?
+
+      </h2>
+
+      <div class="row g-4">
+
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="feature-card">
+
+            <i class="fas fa-dumbbell"></i>
+
+            <h4>Premium Equipment</h4>
+
+            <p>
+
+              Train with modern machines and world-class equipment.
+
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="feature-card">
+
+            <i class="fas fa-user-tie"></i>
+
+            <h4>Expert Trainers</h4>
+
+            <p>
+
+              Certified coaches dedicated to your success.
+
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="feature-card">
+
+            <i class="fas fa-utensils"></i>
+
+            <h4>Diet Support</h4>
+
+            <p>
+
+              Personalized nutrition guidance for better results.
+
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+
+          <div class="feature-card">
+
+            <i class="fas fa-chart-line"></i>
+
+            <h4>Progress Tracking</h4>
+
+            <p>
+
+              Track every milestone with regular assessments.
+
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= MEMBERSHIP PLANS ================= -->
+
+  <section id="plans" class="membership-section py-5">
+
+    <div class="container">
+
+      <h2 class="section-title text-center mb-5" data-aos="zoom-out">
+
+        Choose Your Membership
+
+      </h2>
+
+      <div class="row g-4">
+
+        <!-- BASIC -->
+
+        <div class="col-lg-4" data-aos="fade-right">
+
+          <div class="plan-card">
+
+            <h3>Basic</h3>
+
+            <h1>₹999</h1>
+
+            <span>/ Month</span>
+
+            <ul>
+
+              <li><i class="fas fa-check"></i> Gym Access</li>
+
+              <li><i class="fas fa-check"></i> Cardio Area</li>
+
+              <li><i class="fas fa-check"></i> Locker Facility</li>
+
+              <li><i class="fas fa-check"></i> Fitness Assessment</li>
+
+            </ul>
+
+            <a href="contact.html" class="btn btn-outline-danger w-100">
+
+              Join Now
+
+            </a>
+
+          </div>
+
+        </div>
+
+        <!-- STANDARD -->
+
+        <div class="col-lg-4">
+
+          <div class="plan-card featured" data-aos="zoom-in">
+
+            <div class="popular">
+
+              Most Popular
+
+            </div>
+
+            <h3>Standard</h3>
+
+            <h1>₹1799</h1>
+
+            <span>/ Month</span>
+
+            <ul>
+
+              <li><i class="fas fa-check"></i> Everything in Basic</li>
+
+              <li><i class="fas fa-check"></i> Personal Trainer</li>
+
+              <li><i class="fas fa-check"></i> Diet Plan</li>
+
+              <li><i class="fas fa-check"></i> Group Classes</li>
+
+              <li><i class="fas fa-check"></i> Progress Tracking</li>
+
+            </ul>
+
+            <a href="contact.html" class="btn btn-danger w-100">
+
+              Join Now
+
+            </a>
+
+          </div>
+
+        </div>
+
+        <!-- PREMIUM -->
+
+        <div class="col-lg-4" data-aos="fade-left">
+
+          <div class="plan-card">
+
+            <h3>Premium</h3>
+
+            <h1>₹2999</h1>
+
+            <span>/ Month</span>
+
+            <ul>
+
+              <li><i class="fas fa-check"></i> Everything in Standard</li>
+
+              <li><i class="fas fa-check"></i> Unlimited PT</li>
+
+              <li><i class="fas fa-check"></i> Nutrition Coaching</li>
+
+              <li><i class="fas fa-check"></i> Monthly Body Analysis</li>
+
+              <li><i class="fas fa-check"></i> Priority Support</li>
+
+            </ul>
+
+            <a href="contact.html" class="btn btn-outline-danger w-100">
+
+              Join Now
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--Footer-->
+  <section class="footer py-3">
+    <footer>
+      <footer class="footer">
+        <div class="container text-center">
+          <h4 data-aos="fade-up">Yoddha Gym</h4>
+
+          <p data-aos="fade-left">
+            Transform Your Body • Transform Your Life
+          </p>
+
+          <div class="footer-links" data-aos="fade-right">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="plans.html">Plans</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+          </div>
+
+          <div class="social-icons mt-3">
+            <a href="#" data-aos="fade-down" data-aos-delay="100"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" data-aos="fade-down" data-aos-delay="200"><i class="fab fa-instagram"></i></a>
+            <a href="#" data-aos="fade-down" data-aos-delay="300"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" data-aos="fade-down" data-aos-delay="400"><i class="fab fa-youtube"></i></a>
+          </div>
+
+          <hr>
+
+          <p class="copyright">
+            © 2026 Yoddha Gym. All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 1000,
+          once: true,
+          offset: 120
+        });
+      </script>
+</body>
+
+</html>

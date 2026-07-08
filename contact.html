@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <!--Bootstrap framwork link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--Nave bar section -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img id="logo-pic"
+          src="https://file.aiquickdraw.com/imgcompressed/img/compressed_d76d0b1e2e13bac6f32e935d3ace6655.webp"
+          alt="Yoddha Gym">
+        <span id="logo">
+          Yoddha Gym
+        </span>
+      </a>
+      <!-- Mobile Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              Home
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="services.html" id="servicesDropdown" role="button"
+              data-bs-toggle="dropdown">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="services.html">All Services</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="personal-training.html">🏋️ Personal Training</a></li>
+              <li><a class="dropdown-item" href="weight-training.html">💪 Weight Training</a></li>
+              <li><a class="dropdown-item" href="yoga.html">🧘 Yoga Classes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="plans.html">
+              Plans
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">
+              Gallery
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">
+              Contact
+            </a>
+          </li>
+          <li class="nav-item ms-lg-3">
+            <a href="contact.html" class="btn btn-light text-danger fw-bold px-4 rounded-pill">
+              Join Now
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Contact Hero -->
+  <section class="contact-hero">
+    <div class="container text-center">
+      <h1 data-aos="fade-down">Contact Us</h1>
+
+      <p data-aos="fade-up">
+        We'd love to hear from you.<br>
+        Start your fitness journey with Yoddha Gym today.
+      </p>
+
+      <div class="breadcrumb-text" data-aos="zoom-in">
+        <a href="index.html">Home</a>
+        <span> / Contact</span>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact Section-->
+  <section id="contact" class="contact-section py-5">
+
+    <div class="container-fluid px-lg-5"> <!-- Using container-fluid for a wider, side-by-side layout -->
+
+      <h2 class="section-title text-center mb-3" data-aos="fade-right" data-aos-delay="100">Ready to Transform Your
+        Body?</h2>
+
+      <p class="text-center text-light mb-5" data-aos="fade-left" data-aos-delay="200">
+        Have questions about memberships or training? We'd love to hear from you!
+      </p>
+
+      <div class="row g-4 justify-content-center align-items-stretch">
+
+        <!-- Column 1: Contact Information -->
+        <div class="col-xl-3 col-lg-4" data-aos="fade-right" data-aos-delay="100">
+          <div class="contact-card">
+            <h3>Contact Information</h3>
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i> ADDRESS
+              <p>Yoddha Gym<br>Pune, Maharashtra</p>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-phone"></i> PHONE
+              <p>+91 866XX XXXXX</p>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i> EMAIL
+              <p>info@yoddhagym.com</p>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-clock"></i> TIME
+              <p>Mon - Sat : 6:00 AM - 10:00 PM</p>
+            </div>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2: Contact Form -->
+        <div class="col-xl-5 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="contact-form-card">
+            <h3>Send Message</h3>
+            <form id="contactForm">
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Full Name" required>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Email Address" required>
+              </div>
+              <div class="mb-3">
+                <input type="tel" class="form-control" placeholder="Phone Number" maxlength="10" inputmode="numeric"
+                  required>
+              </div>
+              <div class="mb-3">
+                <select class="form-select">
+                  <option selected>Select Membership / Service</option>
+                  <option>Basic Membership</option>
+                  <option>Standard Membership</option>
+                  <option>Premium Membership</option>
+                  <option>Personal Training</option>
+                  <option>Weight Training</option>
+                  <option>Yoga Classes</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <textarea rows="4" class="form-control" placeholder="Tell us how we can help..." required></textarea>
+              </div>
+              <button class="btn btn-danger w-100" type="submit">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Column 3: Map Location -->
+        <div class="col-xl-4 col-lg-4" data-aos="fade-left" data-aos-delay="300">
+          <div class="map-container h-100">
+            <!-- Google Map Embed API (Placeholder targeted to Pune, Maharashtra) -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.3728744781206!2d73.82246170808209!3d18.45666325907037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc29501a7414509%3A0x87ef539f896dfb0e!2sMass%20IT%20Solutions%20LLP!5e0!3m2!1sen!2sin!4v1783141332843!5m2!1sen!2sin"
+              width="100%" height="100%" style="border:0; min-height: 400px; display: block;" allowfullscreen=""
+              loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--Popup window for Contact completed-->
+  <div class="modal fade" id="successModal" tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+      <div class="modal-content">
+
+        <div class="modal-body text-center p-5">
+
+          <i class="fa-solid fa-circle-check text-success display-1 mb-3"></i>
+
+          <h2 class="fw-bold">Thank You!</h2>
+
+          <p class="mt-3">
+            Your message has been sent successfully.
+          </p>
+
+          <p class="text-muted">
+            Our team will contact you within 24 hours.
+          </p>
+
+          <button class="btn btn-danger px-4 mt-3" data-bs-dismiss="modal">
+
+            Done
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--Error Popup window -->
+  <div class="modal fade" id="errorModal" tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+      <div class="modal-content">
+
+        <div class="modal-body text-center p-5">
+
+          <i class="fa-solid fa-circle-xmark text-danger display-1 mb-3"></i>
+
+          <h2 class="fw-bold">Invalid Phone Number</h2>
+
+          <p class="mt-3">
+
+            Please enter a valid mobile number.
+
+          </p>
+
+          <p class="text-muted">
+
+            It must contain exactly 10 digits.
+
+          </p>
+
+          <button class="btn btn-danger mt-3" data-bs-dismiss="modal">
+
+            Try Again
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- FAQ Section -->
+  <section class="faq-section py-3">
+
+    <div class="container">
+
+      <h2 class="section-title text-white" data-aos="fade-right">
+        Frequently Asked Questions
+      </h2>
+
+      <div class="accordion" id="faqAccordion" class="row justify-content-center" data-aos="fade-up">
+
+        <div class="accordion-item" class="col-lg-8">
+
+          <h2 class="accordion-header">
+
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+
+              What are your opening hours?
+
+            </button>
+
+          </h2>
+
+          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+              Monday to Saturday
+              <br>
+              6:00 AM – 10:00 PM
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="accordion-item">
+
+          <h2 class="accordion-header">
+
+            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+
+              Do beginners receive guidance?
+
+            </button>
+
+          </h2>
+
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+              Absolutely! Every beginner receives an initial assessment and a personalized workout plan.
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="accordion-item">
+
+          <h2 class="accordion-header">
+
+            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">
+
+              Is personal training available?
+
+            </button>
+
+          </h2>
+
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+              Yes. Certified personal trainers are available with our Standard and Premium memberships.
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!--Footer-->
+  <section class="footer py-3">
+    <footer>
+      <footer class="footer">
+        <div class="container text-center">
+          <h4 data-aos="fade-up">Yoddha Gym</h4>
+
+          <p data-aos="fade-left">
+            Transform Your Body • Transform Your Life
+          </p>
+
+          <div class="footer-links" data-aos="fade-right">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="plans.html">Plans</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+          </div>
+
+          <div class="social-icons mt-3">
+            <a href="#" data-aos="fade-down" data-aos-delay="100"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" data-aos="fade-down" data-aos-delay="200"><i class="fab fa-instagram"></i></a>
+            <a href="#" data-aos="fade-down" data-aos-delay="300"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" data-aos="fade-down" data-aos-delay="400"><i class="fab fa-youtube"></i></a>
+          </div>
+
+          <hr>
+
+          <p class="copyright">
+            © 2026 Yoddha Gym. All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+      <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+      <script>
+        AOS.init({
+          duration: 1000,
+          once: true,
+          offset: 120
+        });
+      </script>
+      <script src="contact.js"></script>
+
+</body>
+
+</html>

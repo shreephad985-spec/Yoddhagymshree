@@ -1,0 +1,272 @@
+/* ================= CONTACT HERO ================= */
+
+.contact-hero {
+  height: 55vh;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, .7),
+      rgba(0, 0, 0, .7)),
+    url("https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1600");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  color: white;
+}
+
+.contact-hero h1 {
+
+  font-size: 60px;
+
+  font-weight: 800;
+
+  margin-bottom: 20px;
+
+}
+
+.contact-hero p {
+
+  font-size: 20px;
+
+  color: #ddd;
+
+}
+
+.breadcrumb-text {
+
+  margin-top: 25px;
+
+  font-size: 18px;
+
+}
+
+.breadcrumb-text a {
+
+  color: #dc3545;
+
+  text-decoration: none;
+
+  font-weight: 600;
+
+}
+
+.breadcrumb-text span {
+
+  color: white;
+
+}
+
+
+/*=========== FAQ Section =============*/
+
+.faq-section {
+  background: #111;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.faq-section .section-title {
+  margin-bottom: 25px;
+}
+
+#faqAccordion {
+  margin-bottom: 0;
+}
+
+.accordion-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer {
+  padding: 35px 0 20px;
+}
+
+.accordion-item {
+
+  background: #1c1c1c;
+
+  border: none;
+
+  margin-bottom: 15px;
+
+}
+
+.accordion-button {
+
+  background: #1c1c1c;
+
+  color: white;
+
+  font-weight: 600;
+
+}
+
+.accordion-button:not(.collapsed) {
+
+  background: #dc3545;
+
+  color: white;
+
+}
+
+.accordion-body {
+
+  background: #2a2a2a;
+
+  color: #ddd;
+
+}
+
+/*============ Contact Section ==============*/
+.contact-section {
+
+  background: #111;
+
+}
+
+.section-title {
+  color: #dc3545;
+}
+
+.contact-card,
+.contact-form-card {
+
+  background: #1c1c1c;
+
+  padding: 35px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, .35);
+
+  height: 100%;
+
+}
+
+.contact-card h3,
+.contact-form-card h3 {
+
+  color: #fff;
+
+  margin-bottom: 30px;
+
+}
+
+.contact-item {
+
+  margin-bottom: 25px;
+
+  color: #ddd;
+
+}
+
+.contact-item strong {
+
+  display: block;
+
+  color: #fff;
+
+  margin-bottom: 5px;
+
+}
+
+
+/*============= Contact Form Sectiom =============*/
+
+.form-control,
+.form-select {
+
+  background: #2b2b2b;
+
+  border: none;
+
+  color: white;
+
+  padding: 14px;
+
+}
+
+.form-control::placeholder {
+
+  color: #bbb;
+
+}
+
+.form-control:focus,
+.form-select:focus {
+
+  background: #2b2b2b;
+
+  color: white;
+
+  box-shadow: 0 0 12px rgba(220, 53, 69, .45);
+
+}
+
+.social-icons {
+
+  margin-top: 30px;
+
+}
+
+.social-icons a {
+
+  display: inline-flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  width: 45px;
+
+  height: 45px;
+
+  border-radius: 50%;
+
+  background: #2b2b2b;
+
+  color: white;
+
+  margin-right: 10px;
+
+  text-decoration: none;
+
+  transition: .3s;
+
+}
+
+.social-icons a:hover {
+
+  background: #dc3545;
+
+  transform: translateY(-5px);
+
+}
+
+
+
+/* Ensure columns stretch uniformly */
+.align-items-stretch {
+  display: flex;
+  align-items: stretch;
+}
+
+/* Updated Map Container to match card stylings and stretch fully */
+.map-container {
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, .35);
+  height: 100%;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

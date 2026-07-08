@@ -1,0 +1,227 @@
+/*==========================
+      PLANS HERO
+==========================*/
+
+.plans-hero {
+
+  height: 70vh;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+    url("https://img.freepik.com/free-psd/gym-fitness-youtube-cover-template_23-2149584683.jpg?semt=ais_hybrid&w=740&q=80");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  text-align: center;
+
+}
+
+.plans-hero h1 {
+
+  font-size: 70px;
+  font-weight: 800;
+
+}
+
+.plans-hero p {
+
+  font-size: 22px;
+  color: #ddd;
+  margin-top: 20px;
+
+}
+
+
+
+.why-join {
+
+  background: #111;
+
+}
+
+.feature-card {
+
+  background: #1d1d1d;
+
+  padding: 35px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  transition: .4s;
+
+  height: 100%;
+
+}
+
+.section-title {
+  color: #8b0000;
+}
+
+.feature-card:hover {
+
+  transform: translateY(-12px);
+
+  box-shadow: 0 20px 40px rgba(220, 53, 69, .3);
+
+}
+
+.feature-card i {
+
+  font-size: 50px;
+
+  color: #dc3545;
+
+  margin-bottom: 20px;
+
+}
+
+.feature-card h4 {
+
+  color: white;
+
+  margin-bottom: 15px;
+
+}
+
+.feature-card p {
+
+  color: #bfbfbf;
+
+}
+
+
+/*==============================
+      MEMBERSHIP PLANS
+==============================*/
+
+.membership-section {
+
+  background: #0d0d0d;
+
+}
+
+.plan-card {
+
+  background: #1b1b1b;
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  position: relative;
+
+  transition: .4s;
+
+  height: 100%;
+
+  border: 2px solid transparent;
+
+}
+
+.plan-card:hover {
+
+  transform: translateY(-12px);
+
+  border-color: #dc3545;
+
+  box-shadow: 0 20px 40px rgba(220, 53, 69, .35);
+
+}
+
+.plan-card h3 {
+
+  color: #fff;
+
+  margin-bottom: 20px;
+
+}
+
+.plan-card h1 {
+
+  color: #dc3545;
+
+  font-size: 55px;
+
+  font-weight: 800;
+
+}
+
+.plan-card span {
+
+  color: #bbb;
+
+}
+
+.plan-card ul {
+
+  list-style: none;
+
+  padding: 0;
+
+  margin: 30px 0;
+
+}
+
+.plan-card ul li {
+
+  color: #ddd;
+
+  margin-bottom: 15px;
+
+}
+
+.plan-card ul i {
+
+  color: #dc3545;
+
+  margin-right: 10px;
+
+}
+
+.featured {
+
+  transform: scale(1.05);
+
+  border: 2px solid #dc3545;
+
+}
+
+.featured:hover {
+
+  transform: scale(1.08);
+
+}
+
+.popular {
+
+  position: absolute;
+
+  top: 15px;
+
+  right: -12px;
+
+  background: #dc3545;
+
+  color: #fff;
+
+  padding: 8px 20px;
+
+  transform: rotate(45deg);
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  width: 140px;
+
+}
