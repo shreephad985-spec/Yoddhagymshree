@@ -298,3 +298,8 @@
     z-index: 100000 !important;
     cursor: pointer;
 }
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
