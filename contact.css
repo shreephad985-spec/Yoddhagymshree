@@ -1,4 +1,17 @@
 /* ================= CONTACT HERO ================= */
+/* Hard reset to eliminate horizontal overflow on mobile viewports */
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    position: relative !important;
+}
+
+/* Force images inside columns to scale correctly and not pop out */
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
 
 .contact-hero {
   height: 55vh;
