@@ -24,8 +24,9 @@
 
 .plans-hero h1 {
 
-  font-size: 70px;
-  font-weight: 800;
+  font-size: clamp(2rem, 8vw, 4.5rem);
+  white-space: nowrap;
+  line-height: 1;
 
 }
 
@@ -35,7 +36,18 @@
   color: #ddd;
   margin-top: 20px;
 
+  @media (max-width:768px) {
+
+    .hero h1 {
+      font-size: 38px;
+      white-space: nowrap;
+    }
+
+  }
+
 }
+
+
 
 
 
