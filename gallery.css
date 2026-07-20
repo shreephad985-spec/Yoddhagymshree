@@ -299,7 +299,8 @@
     cursor: pointer;
 }
 
-html, body {
-  width: 100%;
-  overflow-x: hidden;
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
 }
